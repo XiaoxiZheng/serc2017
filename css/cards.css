@@ -3061,7 +3061,39 @@ a:hover .lnk-icon-right {
   -ms-border-radius: 50%;
   border-radius: 50%;
 }
+.sponsorPlatImg img {
+  width: 150px;
+  float: left;
+  margin-right: 20px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
 
+}
+.sponsorImg img {
+  width: 100px;
+  float: left;
+  margin-right: 20px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
+
+}
+.sponsorTxt{
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #FFFFFF;
+  font-size: 11px !important;
+}
+.sponsorLead{
+  font-size: 25px;
+  font-family: "Montserrat", Arial, sans-serif;
+  font-weight: 700;
+  color: #fff;
+}
 .fh5co-testimonial-style-2 .fh5co-testimonial-item .fh5co-name .fh5co-meta {
   float: left;
   margin-top: 15px;
