@@ -3051,6 +3051,17 @@ a:hover .lnk-icon-right {
   -ms-border-radius: 50%;
   border-radius: 50%;
 }
+
+.fh5co-testimonial-style-2 .fh5co-testimonial-item .fh5co-name-top img {
+  width: 120px;
+  float: left;
+  margin-right: 20px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
+}
+
 .fh5co-testimonial-style-2 .fh5co-testimonial-item .fh5co-name .fh5co-meta {
   float: left;
   margin-top: 15px;
