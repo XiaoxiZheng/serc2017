@@ -906,6 +906,13 @@ a:hover .lnk-icon-right {
   line-height: 26px;
   color: #fff;
 }
+.fh5co-cover .fh5co-cover-text .cover-text-customized {
+  font-size: 14px;
+  font-family: "Open Sans", Arial, sans-serif;
+  font-weight: 400;
+  line-height: 26px;
+  color: #fff;
+}
 .fh5co-cover .fh5co-cover-text .btn-outline {
   border: 2px solid #fff;
   color: #fff;
