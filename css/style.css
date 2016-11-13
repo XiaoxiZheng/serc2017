@@ -62,7 +62,7 @@ h2 {
 }
 
 a {
-  color: #1784fb;
+  color: #58ca7e;
   -webkit-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
   -ms-transition: all 0.5s ease;
@@ -909,8 +909,6 @@ a:hover .lnk-icon-right {
 .fh5co-cover .fh5co-cover-text .cover-text-customized {
   font-size: 14px;
   font-family: "Open Sans", Arial, sans-serif;
-  font-weight: 400;
-  line-height: 26px;
   color: #fff;
 }
 .fh5co-cover .fh5co-cover-text .btn-outline {
