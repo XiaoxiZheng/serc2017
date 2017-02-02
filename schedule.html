@@ -51,10 +51,19 @@
 				<div class="col-lg-8 col-md-5 col-sm-5 text-center fh5co-link-wrap">
 					<ul data-offcanvass="yes">
 						<!-- <li class="active"><a href="#">Tour</a></li> -->
-						
 						<li><a href="about.html">About</a></li>
 						<li><a href="travel.html">Travel Info</a></li>
-						<li class="active"><a href="schedule.html">Schedule</a></li>
+						<li class="dropdown">
+							<a class="dropdown-toggle" data-toggle="dropdown" href="schedule.html">Schedule
+								<span class="caret"></span>
+							</a>
+								<ul class="dropdown-menu">
+									<li><a href = "#weekend">Overall</a></li>
+									<li><a href = "#tour">Plant Tours</a></li>
+									<li><a href = "#workshops">Workshops</a></li>
+									<li><a href = "#speakers"> Speakers</a></li>
+								</ul>
+							</li>
 						<li><a href="press.html">Media</a></li>
 						<li><a href="competition.html">Technical Paper</a></li>
 						<li><a href="sponsors.html">Sponsors</a></li>
@@ -69,7 +78,7 @@
 		</nav>
 
 
-		<div class="fh5co-cover fh5co-cover-style-2 js-full-height" data-stellar-background-ratio="0.5" data-next="yes"  style="background-image: url(images/iiseLogo_pure.png);">
+		<div id="weekend" class="fh5co-cover fh5co-cover-style-2 js-full-height" data-stellar-background-ratio="0.5" data-next="yes"  style="background-image: url(images/iiseLogo_pure.png);">
 		</br>
 		</br>
 			<div class="fh5co-overlay"></div>
@@ -81,17 +90,17 @@
 								<div class="row">
 					        <div class="col-md-12">
 
-								<center> 
+								<center>
 								<h1 class="cover-text-lead wow fadeInUp text-center" data-wow-duration="1s" data-wow-delay=".5s">Weekend Schedule </h1>
-								 <img src ="images/iise/NewSchedule.png" class = "img-responsive" /> 
+								 <img src ="images/iise/NewSchedule.png" class = "img-responsive" />
 	<!--  Workshops & Plant Tours Pictures
-					 <img src ="images/iise/serc_workshops.jpg" class = "img-responsive" /> 
+					 <img src ="images/iise/serc_workshops.jpg" class = "img-responsive" />
 					 <img src ="images/iise/serc_plant tours.png" class = "img-responsive" /> -->
-					
+
 					 <!-- <iframe src="https://calendar.google.com/calendar/embed?src=operations.conference%40ufiie.org&ctz=America/New_York&dates=20170301%2F20170331" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>	-->
-				
+
 				 	<!--iframe src="https://calendar.google.com/calendar/embed?src=ufiie.org_16r50nibpvvb93quv541vbi5og%40group.calendar.google.com&ctz=America/New_York&dates=20170301%2F20170331" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"1></iframe>--> </center>
-										
+
 									</div>
 								</div>
 							</div>
@@ -100,7 +109,7 @@
 			</div>
 		</div>
 
-		<div class="fh5co-cover fh5co-cover-style-2 js-full-height" data-stellar-background-ratio="0.5" style="background-image: url(images/iiseLogo_pure.png);">
+		<div id="tour" class="fh5co-cover fh5co-cover-style-2 js-full-height" data-stellar-background-ratio="0.5" style="background-image: url(images/iiseLogo_pure.png);">
 
 			<div class="fh5co-overlay"></div>
 			<div class="fh5co-cover-text">
@@ -108,12 +117,12 @@
 					<div class="row">
 						<div class="col-md-12 full-height js-full-height">
 							<div class="fh5co-cover-intro text-center">
-									<center>  
+									<center>
 										<h1 class="cover-text-lead wow fadeInUp text-center" data-wow-duration="1s" data-wow-delay=".5s"> Plant Tours </h1>
 								 <img src ="images/logos/serc_plant tours.png" class = "img-responsive" />
 								<h2 class="cover-text-sublead wow fadeInUp"> The sign-up form for plant tours will be available on February 10th, 2017.  <br>
 								</h2>
-		 
+
 									</center>
 								</div>
 							</div>
@@ -125,15 +134,15 @@
 
 			<div class="fh5co-overlay"></div>
 			<div class="fh5co-cover-text">
-				<div class="container">
+				<div id="workshops"class="container">
 					<div class="row">
 						<div class="col-md-12 full-height js-full-height">
 							<div class="fh5co-cover-intro text-center">
-									<center>  
+									<center>
 									<h1 class="cover-text-lead wow fadeInUp text-center" data-wow-duration="1s" data-wow-delay=".5s">Workshops </h1>
-								<h2 class="cover-text-sublead wow fadeInUp"> Expect more updates regarding workshops in the next couple weeks! 
+								<h2 class="cover-text-sublead wow fadeInUp"> Expect more updates regarding workshops in the next couple weeks!
 								</h2>
-								 <img src ="images/logos/serc_workshops.png" class = "img-responsive" /> 
+								 <img src ="images/logos/serc_workshops.png" class = "img-responsive" />
 									</center>
 								</div>
 							</div>
@@ -141,23 +150,23 @@
 					</div>
 				</div>
 			</div>
-			<div class="row">
+			<div class="row" id="speakers">
 					<div class="col-md-12">
-									<center>  
+									<center>
 									<br>
 									<br>
 
-									<h1 class="cover-text-lead wow fadeInUp text-center" data-wow-duration="1s" data-wow-delay=".5s">Speakers 
+									<h1 class="cover-text-lead wow fadeInUp text-center" data-wow-duration="1s" data-wow-delay=".5s">Speakers
 									</h1>
 									<p>
 									Look forward to an awesome line-up of speakers, including the individuals below.
 									</p>
 										<br>
-								
-								 <img src ="images/logos/serc_Speakers.png" class = "img-responsive" /> 
+
+								 <img src ="images/logos/serc_Speakers.png" class = "img-responsive" />
 									</center>
-								</div>
-							</div>
+						</div>
+				</div>
 						</div>
 					</div>
 				</div>
@@ -175,9 +184,9 @@
 		<div class="row">
 					<div class="col-md-12">
 					<center>
-					
-					<!-- Workshops and Plant Tours Charts 
-					<img src ="images/iise/serc_workshops.jpg" class = "img-responsive" /> 
+
+					<!-- Workshops and Plant Tours Charts
+					<img src ="images/iise/serc_workshops.jpg" class = "img-responsive" />
 					 <img src ="images/iise/serc_plant tours.png" class = "img-responsive" /> -->
 								</center>					<br>
 
